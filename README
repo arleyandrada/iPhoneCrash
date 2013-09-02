@@ -1,18 +1,10 @@
-Welcome to your Appcelerator Titanium Mobile Project
+iPhoneCrash
+===========
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+Have fun with friends sending a SMS to their iPhone and see iOS to crash using latest know iOS bug!
 
+Anyone running iOS 6 on their iPhone may have to be extra cautious with their Twitter stream, received SMS, web pages or any Push messages containing a particular string of Arabic characters, that can cause the mobile operating system to instantly crash!
 
+Tech Crunch reports that a bug is causing a particular string of Arabic characters to crash both iOS 6 as well as OS X 10.8, the most recent publicly-available operating system for Macs. It appears that the bug doesn’t happen in the upcoming iOS 7 and OS X 10.9 Mavericks, both to be released this fall.
 
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+This bug has to do with Apple’s CoreText rendering engine, the code that helps your device display text. Any app that uses WebKit, like Safari, will crash as soon as the text appears.
