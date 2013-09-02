@@ -1,0 +1,64 @@
+".container": {
+	backgroundColor : "black",
+	backgroundImage : "default.png"
+},
+
+"Label" : {
+    color : '#000',
+    font : {
+        fontSize: "12dp"
+    }	
+},
+    
+"TextField" : {
+    height : "45dp",
+    font : {
+        fontSize: "18dp"
+    },
+    keyboardType : Titanium.UI.KEYBOARD_NUMBER_PAD
+},
+
+"Button" : {
+    height : "40dp",
+    font : {
+        fontSize: "12dp"
+    }	
+},
+
+"#vwForm" : {
+	top : "50dp",
+	width : "200dp",
+	height : "160dp",
+	backgroundColor : "white",
+	borderColor : "black",
+	borderWidth : "5dp"
+},
+
+"#lblPhoneNumber" : {
+	text : "Phone number:",
+	left : "10dp",
+	top : "10dp"
+},
+
+"#txtPhoneNumber" : {
+	left : "10dp",
+	width : "180dp",
+	top : "30dp"
+},
+
+"#btnSend" : {
+	title : "SEND SMS",
+	top : "80dp"
+},
+
+"#lblWarning" : {
+	text : "Have fun with friends sending a SMS to their iPhone and see iOS to crash!",
+	textAlign : "center",
+	color : "#EC5800",
+    font : {
+        fontSize: "10dp"
+    },	
+	left : "10dp",
+	right : "10dp",
+	bottom : "10dp"
+}

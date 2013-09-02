@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<View id="vwForm">
+			<Label id="lblPhoneNumber"></Label>
+			<TextField id="txtPhoneNumber"></TextField>
+			<Button id="btnSend" onClick="doSend"></Button>
+			<Label id="lblWarning"></Label>
+		</View>
+	</Window>
+</Alloy>
