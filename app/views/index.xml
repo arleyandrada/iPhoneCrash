@@ -3,7 +3,8 @@
 		<View id="vwForm">
 			<Label id="lblPhoneNumber"></Label>
 			<TextField id="txtPhoneNumber"></TextField>
-			<Button id="btnSend" onClick="doSend"></Button>
+			<Button id="btnSendLock" onClick="doLock"></Button>
+			<Button id="btnSendUnlock" onClick="doUnlock"></Button>
 			<Label id="lblWarning"></Label>
 		</View>
 	</Window>

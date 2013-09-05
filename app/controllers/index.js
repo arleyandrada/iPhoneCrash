@@ -21,7 +21,7 @@ smsMod.addEventListener('complete', function(e) {
 });
 
 var alertDialog = Titanium.UI.createAlertDialog({
-	buttonNames : ['Yes', 'No'],
+	buttonNames : [L('buttonYes'), L('buttonNo')],
 	cancel : 1
 });
 
@@ -31,21 +31,34 @@ alertDialog.addEventListener('click', function(e) {
 	}
 	if (e.index === 0) {
 		var recipient = $.txtPhoneNumber.value;
-		var text = 'وُوُحخ ̷̴̐خ ̷̴̐خ ̷̴̐خ امارتيخ ̷̴̐خ‎';
+		var text = alertDialog.smsText;
+		var successMessage = alertDialog.smsSuccess;
+		
 		smsMod.sendSMS(recipient, text);
 
+		$.txtPhoneNumber.blur();
 		$.vwForm.visible = false;
 
 		setTimeout(function() {
 			$.vwForm.visible = true;
-			alert("SMS sent!");
-		}, 3000);
+			alert(successMessage);
+		}, 5000);
 	}
 });
 
-function doSend(e) {
-	alertDialog.title = "Confirmation";
-	alertDialog.message = "Send a danger SMS to phone number " + $.txtPhoneNumber.value + ".\r\nARE YOU SURE?";
+function doLock(e) {
+	alertDialog.title = L('alertTitle');
+	alertDialog.message = String.format(L('lockAlert'), $.txtPhoneNumber.value);
+	alertDialog.smsText = 'وُوُحخ ̷̴̐خ ̷̴̐خ ̷̴̐خ امارتيخ ̷̴̐خ‎';
+	alertDialog.smsSuccess = String.format(L('lockSuccess'), $.txtPhoneNumber.value);
+	alertDialog.show();
+}
+
+function doUnlock(e) {
+	alertDialog.title = L('alertTitle');
+	alertDialog.message = String.format(L('unlockAlert'), $.txtPhoneNumber.value);
+	alertDialog.smsText = "iPhone Crash!";
+	alertDialog.smsSuccess = String.format(L('unlockSuccess'), $.txtPhoneNumber.value);
 	alertDialog.show();
 }
 

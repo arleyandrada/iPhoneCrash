@@ -28,14 +28,14 @@
 "#vwForm" : {
 	top : "50dp",
 	width : "200dp",
-	height : "160dp",
+	height : "220dp",
 	backgroundColor : "white",
 	borderColor : "black",
 	borderWidth : "5dp"
 },
 
 "#lblPhoneNumber" : {
-	text : "Phone number:",
+	text : L('phoneNumber'),
 	left : "10dp",
 	top : "10dp"
 },
@@ -46,13 +46,18 @@
 	top : "30dp"
 },
 
-"#btnSend" : {
-	title : "SEND SMS",
+"#btnSendLock" : {
+	title : L('sendLock'),
 	top : "80dp"
 },
 
+"#btnSendUnlock" : {
+	title : L('sendUnlock'),
+	top : "130dp"
+},
+
 "#lblWarning" : {
-	text : "Have fun with friends sending a SMS to their iPhone and see iOS to crash!",
+	text : L('haveFun'),
 	textAlign : "center",
 	color : "#EC5800",
     font : {

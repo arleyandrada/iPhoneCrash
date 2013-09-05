@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="phoneNumber">Número do telefone:</string>
+	<string name="sendLock">Enviar Ataque!</string>
+	<string name="sendUnlock">Enviar Resgate!</string>
+	<string name="haveFun">Divirta-se com amigos enviando um SMS para usuários de iPhone e veja o iOS travar!</string>
+	<string name="buttonYes">Sim</string>
+	<string name="buttonNo">Não</string>
+	<string name="alertTitle">Confirmação</string>
+	<string name="lockAlert">Deseja enviar o SMS "bomba" para o telefone %1$s?</string>
+	<string name="unlockAlert">Deseja enviar o SMS de "resgate" para o telefone %1$s?</string>
+	<string name="lockSuccess">SMS enviado! O iPhone irá travar por 15 segundos em uma tela preta ou com a logo da Apple e o app de mensagens estará travado até que você decida resgatá-lo.</string>
+	<string name="unlockSuccess">SMS enviado! Agora peça que outra pessoa envie um SMS qualquer para o telefone %1$s e o app de mensagens será destravado.</string>
+</resources>

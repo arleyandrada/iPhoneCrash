@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="phoneNumber">Phone number:</string>
+	<string name="sendLock">Send Attack!</string>
+	<string name="sendUnlock">Send Rescue!</string>
+	<string name="haveFun">Have fun with friends sending a SMS to their iPhone and see iOS to crash!</string>
+	<string name="buttonYes">Yes</string>
+	<string name="buttonNo">No</string>
+	<string name="alertTitle">Confirmation</string>
+	<string name="lockAlert">Send a danger SMS to phone number %1$s.\r\nARE YOU SURE?</string>
+	<string name="unlockAlert">Send a rescue SMS to phone number %1$s?</string>
+	<string name="lockSuccess">SMS sent! The iPhone will hang for 15 seconds on a black screen or the Apple logo and the messaging app is locked until you decide to rescue him.</string>
+	<string name="unlockSuccess">SMS sent! Now ask someone else to send any SMS to phone %1$s and messaging app will be unlocked.</string>
+</resources>
